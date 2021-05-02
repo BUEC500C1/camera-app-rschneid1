@@ -25,3 +25,7 @@ Map features will stay on an android emulation.
 
 Will implement camera features on a web app using expo-camera.
 
+## Step 2: Displaying Camera Input and some Basic UI
+![image](https://user-images.githubusercontent.com/55038099/116824219-13587200-ab57-11eb-8a06-4dce07afede6.png)
+
+
