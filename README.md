@@ -19,5 +19,9 @@ Attmepted to debug via links:
 https://github.com/react-native-camera/react-native-camera/issues/2337
 https://www.fullstacklabs.co/blog/react-native-camera
 
-Moving forward with just camera application using expo-camera for web. 
+
+Solution:
+Map features will stay on an android emulation. 
+
+Will implement camera features on a web app using expo-camera.
 
