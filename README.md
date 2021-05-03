@@ -28,4 +28,7 @@ Will implement camera features on a web app using expo-camera.
 ## Step 4: Displaying Camera Input and some Basic UI
 ![image](https://user-images.githubusercontent.com/55038099/116824219-13587200-ab57-11eb-8a06-4dce07afede6.png)
 
+## Step 5: Storing Each Captured Image in an Array
+![image](https://user-images.githubusercontent.com/55038099/116836739-b7f9a480-ab95-11eb-83f4-64c58ff49a89.png)
+
 
