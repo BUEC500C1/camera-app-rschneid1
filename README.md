@@ -8,7 +8,7 @@ Camera appliation that allows you to click on the map to get a location, take a 
 Turns out that the expo client does not support react-native-maps in the android emulator, and react-native-maps does not work with expo, so I had to rebuild in just react-native and not use expo.
 
 
-## Step 1: Displaying a Map
+## Step 1 & 2 & 3: Displaying a Map (and showing the button from the tutorial)
 ![image](https://user-images.githubusercontent.com/55038099/116816559-74208400-ab30-11eb-9eb4-7245509d4a14.png)
 
 ## Updated: Camera underneath map, Camera displaying black screen:
@@ -25,7 +25,7 @@ Map features will stay on an android emulation.
 
 Will implement camera features on a web app using expo-camera.
 
-## Step 2: Displaying Camera Input and some Basic UI
+## Step 4: Displaying Camera Input and some Basic UI
 ![image](https://user-images.githubusercontent.com/55038099/116824219-13587200-ab57-11eb-8a06-4dce07afede6.png)
 
 
