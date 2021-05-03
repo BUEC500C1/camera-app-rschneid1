@@ -5,7 +5,7 @@
 Camera appliation that allows you to click on the map to get a location, take a photo and save an image to that location, and click on that map marker to see that image.
 
 ## Update:
-Turns out that the expo client does not support react-native-maps in the android emulator, and react-native-maps does not work with expo, so I had to rebuild in just react-native and not use expo.
+Turns out that the expo client does not support expo-camera in the android emulator, and react-native-maps does not work with expo, so I had to rebuild in just react-native and not use expo.
 
 
 ## Step 1 & 2 & 3: Displaying a Map (and showing the button from the tutorial)
@@ -14,7 +14,7 @@ Turns out that the expo client does not support react-native-maps in the android
 ## Updated: Camera underneath map, Camera displaying black screen:
 ![image](https://user-images.githubusercontent.com/55038099/116818335-e39a7180-ab38-11eb-9f24-d95ee4fa3796.png)
 
-## Update: Unable to get Camera to display anything more than a black screen using android emulator. 
+## Update: Unable to get camera (using react-native-camera) RNCamera to display anything more than a black screen using android emulator. 
 Attmepted to debug via links:
 https://github.com/react-native-camera/react-native-camera/issues/2337
 https://www.fullstacklabs.co/blog/react-native-camera
