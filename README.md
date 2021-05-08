@@ -32,3 +32,11 @@ Will implement camera features on a web app using expo-camera.
 ![image](https://user-images.githubusercontent.com/55038099/116836739-b7f9a480-ab95-11eb-83f4-64c58ff49a89.png)
 
 
+## Video Demos of Progress:
+Android:
+https://drive.google.com/file/d/1oNcLQDalDou25IMxUua6RBJxnBn2lZFN/view?usp=sharing
+Web (for camera):
+https://drive.google.com/file/d/1cT3kpUv5GgRnFvQ6NJWOvWazhFXJGy80/view?usp=sharing
+
+
+
