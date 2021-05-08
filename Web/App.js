@@ -1,8 +1,34 @@
 import React, { useState, useEffect } from 'react';
 import { StyleSheet, Text, View, TouchableOpacity, FlatList, TextInput, Image } from 'react-native';
+import firebase from 'firebase/app'
+import 'firebase/firestore'
 import { Camera } from 'expo-camera';
  
 let camera: Camera
+
+
+const firebaseConfig = {
+    apiKey: "AIzaSyAM4ba4gz_ztmH-CJd2-XsmaczP4DT_s2U",
+    authDomain: "cameraapp-312503.firebaseapp.com",
+    projectId: "cameraapp-312503",
+    storageBucket: "cameraapp-312503.appspot.com",
+    messagingSenderId: "933221981473",
+    appId: "1:933221981473:web:b2f0ee484c3ece0f18b260",
+    measurementId: "G-PE16ENEF4F"
+  };
+
+firebase.initializeApp(firebaseConfig);
+
+const dbh = firebase.firestore();
+
+// storing data
+function storeData(zipcode, photo_uri, barcode, faceDetect){
+  dbh.collection("photos").doc(zipcode).set({
+    barcode: barcode,
+    faceDetected: faceDetect,
+    photo_uri: photo_uri
+  })
+}
 
 // Global
 let takenPhotos = [];
@@ -29,6 +55,8 @@ export default function App() {
     // add element to array
     var newPhotos = [...takenPhotos, photo]
     setExampleState(newPhotos)
+
+    storeData(photo.zip, photo.uri, "", "")
     
     console.log(exampleState)
   }
