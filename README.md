@@ -1,11 +1,15 @@
 # Camera Application 
-# Client-Based
+# Cloud-Based
 
 ## Description:
 Camera appliation that allows you to click on the map to get a location, take a photo and save an image to that location, and click on that map marker to see that image.
+Then the user can detect the amount of faces and blur them , and also scan barcodes to get their values.
 
-## Update:
+## Development Update:
 Turns out that the expo client does not support expo-camera in the android emulator, and react-native-maps does not work with expo, so I had to rebuild in just react-native and not use expo.
+
+Implementing camera features in web app.
+Went as far as I can in android emulator before experiencing bugs.
 
 
 ## Step 1 & 2 & 3: Displaying a Map (and showing the button from the tutorial)
