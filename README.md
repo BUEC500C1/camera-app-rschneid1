@@ -52,7 +52,7 @@ https://drive.google.com/file/d/1M8UDqsjSjf-o31JX0JuW1mwzW3zyd4B-/view?usp=shari
 ![image](https://user-images.githubusercontent.com/55038099/117544663-7c753500-aff0-11eb-9eaf-c35b5bafb46a.png)
 ![image](https://user-images.githubusercontent.com/55038099/117544824-2b197580-aff1-11eb-9252-d929c098d27a.png)
 
-## Bar Code Scanner and Face Detector both import as Null with app
+## Bar Code Scanner and Face Detector both import as Null with Web App
 attemtping to use a different library (face-api.sj) link: https://github.com/justadudewhohacks/face-api.js
 
 
