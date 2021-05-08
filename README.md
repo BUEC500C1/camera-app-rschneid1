@@ -50,4 +50,7 @@ https://drive.google.com/file/d/1M8UDqsjSjf-o31JX0JuW1mwzW3zyd4B-/view?usp=shari
 
 ## FaceDetector seems to not work with the web app, looking for different packages:
 ![image](https://user-images.githubusercontent.com/55038099/117544663-7c753500-aff0-11eb-9eaf-c35b5bafb46a.png)
+![image](https://user-images.githubusercontent.com/55038099/117544824-2b197580-aff1-11eb-9252-d929c098d27a.png)
+
+
 
