@@ -48,8 +48,8 @@ export default function App() {
     setText('')
     console.log(photo)
 
-    var faceNum = FaceDetector.faces.length
-    const faceString = faceNum.toString()
+    //var faceNum = FaceDetector.faces.length
+    //const faceString = faceNum.toString()
 
     // add element to array
     var newPhotos = [...takenPhotos, photo]
@@ -81,13 +81,15 @@ export default function App() {
       <View style={{flexDirection: "row"}}>
         <Camera 
           style={styles.camera}
-          faceDetectorSettings={{
-            mode: FaceDetector.Constants.Mode.fast,
-            detectLandmarks: FaceDetector.Constants.Landmakrs.none,
-            runClassifications: FaceDetector.Constants.Classifications.none,
-            minDetectionInterval: 100,
-            tracking: true
-          }} 
+          onFacesDetected={__takePicture}
+          onBarCodeScanned={__takePicture}
+          //faceDetectorSettings={{
+            //mode: FaceDetector.Constants.Mode.fast,
+            //detectLandmarks: FaceDetector.Constants.Landmakrs.none,
+            //runClassifications: FaceDetector.Constants.Classifications.none,
+            //minDetectionInterval: 100,
+            //tracking: true
+          //}} 
           type={Camera.Constants.Type.front}
           ref = {(ref) => { camera = ref }}>
           <View style={styles.capture}>
