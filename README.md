@@ -39,4 +39,7 @@ Web (for camera): <br />
 https://drive.google.com/file/d/1cT3kpUv5GgRnFvQ6NJWOvWazhFXJGy80/view?usp=sharing <br />
 
 
+## Demo of Storing Images and Data in Firebase <br />
+https://drive.google.com/file/d/1M8UDqsjSjf-o31JX0JuW1mwzW3zyd4B-/view?usp=sharing
+
 
