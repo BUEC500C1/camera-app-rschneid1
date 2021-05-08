@@ -55,5 +55,11 @@ https://drive.google.com/file/d/1M8UDqsjSjf-o31JX0JuW1mwzW3zyd4B-/view?usp=shari
 ## Bar Code Scanner and Face Detector both import as Null with Web App
 attemtping to use a different library (face-api.sj) link: https://github.com/justadudewhohacks/face-api.js
 
+After some debugging can't seem to get it to work:
+![image](https://user-images.githubusercontent.com/55038099/117546744-f52cbf00-aff9-11eb-8570-944d72b82062.png)
+
+Looking for other face detection for web camera ...
+
+
 
 
