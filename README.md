@@ -34,9 +34,9 @@ Will implement camera features on a web app using expo-camera.
 
 ## Video Demos of Progress:
 Android:
-https://drive.google.com/file/d/1oNcLQDalDou25IMxUua6RBJxnBn2lZFN/view?usp=sharing
-Web (for camera):
-https://drive.google.com/file/d/1cT3kpUv5GgRnFvQ6NJWOvWazhFXJGy80/view?usp=sharing
+https://drive.google.com/file/d/1oNcLQDalDou25IMxUua6RBJxnBn2lZFN/view?usp=sharing <br />
+Web (for camera): <br />
+https://drive.google.com/file/d/1cT3kpUv5GgRnFvQ6NJWOvWazhFXJGy80/view?usp=sharing <br />
 
 
 
