@@ -8,13 +8,13 @@ let camera: Camera
 
 
 const firebaseConfig = {
-    apiKey: "AIzaSyAM4ba4gz_ztmH-CJd2-XsmaczP4DT_s2U",
-    authDomain: "cameraapp-312503.firebaseapp.com",
-    projectId: "cameraapp-312503",
-    storageBucket: "cameraapp-312503.appspot.com",
-    messagingSenderId: "933221981473",
-    appId: "1:933221981473:web:b2f0ee484c3ece0f18b260",
-    measurementId: "G-PE16ENEF4F"
+    apiKey: "",
+    authDomain: "",
+    projectId: "",
+    storageBucket: "",
+    messagingSenderId: "",
+    appId: "",
+    measurementId: ""
   };
 
 firebase.initializeApp(firebaseConfig);
