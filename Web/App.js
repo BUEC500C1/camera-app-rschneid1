@@ -3,18 +3,14 @@ import { StyleSheet, Text, View, TouchableOpacity, FlatList, TextInput, Image } 
 import firebase from 'firebase/app'
 import 'firebase/firestore'
 import { Camera } from 'expo-camera';
+import * as FaceDetector from 'expo-face-detector';
+
  
 let camera: Camera
 
 
 const firebaseConfig = {
-    apiKey: "",
-    authDomain: "",
-    projectId: "",
-    storageBucket: "",
-    messagingSenderId: "",
-    appId: "",
-    measurementId: ""
+    
   };
 
 firebase.initializeApp(firebaseConfig);
@@ -52,6 +48,9 @@ export default function App() {
     setText('')
     console.log(photo)
 
+    var faceNum = FaceDetector.faces.length
+    const faceString = faceNum.toString()
+
     // add element to array
     var newPhotos = [...takenPhotos, photo]
     setExampleState(newPhotos)
@@ -81,7 +80,14 @@ export default function App() {
       </View>
       <View style={{flexDirection: "row"}}>
         <Camera 
-          style={styles.camera} 
+          style={styles.camera}
+          faceDetectorSettings={{
+            mode: FaceDetector.Constants.Mode.fast,
+            detectLandmarks: FaceDetector.Constants.Landmakrs.none,
+            runClassifications: FaceDetector.Constants.Classifications.none,
+            minDetectionInterval: 100,
+            tracking: true
+          }} 
           type={Camera.Constants.Type.front}
           ref = {(ref) => { camera = ref }}>
           <View style={styles.capture}>
